@@ -1,3 +1,9 @@
+let button1 = document.getElementByTagName("button1");
+button1.addEventListener("click", diceRoller(3) );
+
+let button2 = document.getElementByTagName("button2");
+button2.addEventListener("click", diceRoller(2));
+
 
 const diceRoller = (diceQuantity) => {
 let accumulator = 0;
